@@ -8,7 +8,7 @@ Uses:
   - showkeys [Toggle available]
   - nvim.treesitter
 
-Made with the help of MrJakob - https://www.youtube.com/watch?v=R3e7uAE8jjo&list=PLy68GuC77sURrnMNi2XR1h58m674KOvLG
+Made with the help of MrJakob - [playlist](https://www.youtube.com/watch?v=R3e7uAE8jjo&list=PLy68GuC77sURrnMNi2XR1h58m674KOvLG)
 
 
 # ScreenShots
