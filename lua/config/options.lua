@@ -9,7 +9,7 @@ vim.opt.tabstop = 4 --spaces per tab
 vim.opt.softtabstop = 4 --spaces when presing tab
 vim.opt.autoindent = true --remember indentation from prev line
 vim.opt.smarttab = true
-vim.opt.smartindent = true
+-- vim.opt.smartindent = true
 
 -- remember undo between sessions
 vim.opt.undofile = true
@@ -38,13 +38,13 @@ vim.opt.splitbelow = true
 --  See `:help 'list'`
 --  and `:help 'listchars'`
 vim.opt.list = true
-vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+vim.opt.listchars = { tab = "  ", trail = "·", nbsp = "␣" }
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 5
 
 -- disable the command line
-vim.opt.cmdheight = 0
+-- vim.opt.cmdheight = 0
 
 -- Highlight text for some time after yanking
 vim.api.nvim_create_autocmd("TextYankPost", {

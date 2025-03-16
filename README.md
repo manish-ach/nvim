@@ -7,6 +7,9 @@ Uses:
   - vim.sleuth [indentations, spacing and stuffs]
   - showkeys [Toggle available]
   - nvim.treesitter
+  - fzf
+  - lsp
+  - Mason
 
 Made with the help of MrJakob - [YT_playlist](https://www.youtube.com/watch?v=R3e7uAE8jjo&list=PLy68GuC77sURrnMNi2XR1h58m674KOvLG)
 
