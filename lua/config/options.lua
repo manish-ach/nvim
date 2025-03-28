@@ -46,6 +46,10 @@ vim.opt.scrolloff = 5
 -- disable the command line
 -- vim.opt.cmdheight = 0
 
+-- clipboard
+vim.opt.clipboard = "unnamedplus"  -- Sync Neovim's clipboard with macOS clipboard
+
+
 -- Highlight text for some time after yanking
 vim.api.nvim_create_autocmd("TextYankPost", {
     group = vim.api.nvim_create_augroup("YankHighlight", { 

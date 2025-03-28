@@ -24,7 +24,7 @@ return {
 		{
 			"<leader>fb",
 			function() require('fzf-lua').builtin() end,
-			desc="Fuzzy find files from nvim config dir"
+			desc="Fuzzy find the builtin commands"
 		},
 		{
 			"<leader>fk",

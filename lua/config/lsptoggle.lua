@@ -9,5 +9,10 @@ function ToggleDiagnostics()
     end
 end
 
-vim.api.nvim_set_keymap('n', '<leader>td', ':lua ToggleDiagnostics()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap(
+    'n',
+    '<leader>td',
+    ':lua ToggleDiagnostics()<CR>', 
+    {desc="toggle diagnostics"}
+)
 
