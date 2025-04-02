@@ -29,5 +29,7 @@ end
 require("nvconfig").base46.theme = "kanagawa"
 require("base46").load_all_highlights()
 
+-- load configs
+require("config.lsptoggle")
 require("config.keymaps")
 require("config.options")
