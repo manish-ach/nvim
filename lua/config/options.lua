@@ -4,7 +4,7 @@ vim.opt.relativenumber = false
 
 -- indentations
 vim.opt.expandtab = true --convert tabs to spaces
-vim.opt.shiftwidth =  4 --amount to indent with << and >>
+vim.opt.shiftwidth = 4 --amount to indent with << and >>
 vim.opt.tabstop = 4 --spaces per tab
 vim.opt.softtabstop = 4 --spaces when presing tab
 vim.opt.autoindent = true --remember indentation from prev line
@@ -47,21 +47,18 @@ vim.opt.scrolloff = 5
 -- vim.opt.cmdheight = 0
 
 -- clipboard
-vim.opt.clipboard = "unnamedplus"  -- Sync Neovim's clipboard with macOS clipboard
+vim.opt.clipboard = "unnamedplus" -- Sync Neovim's clipboard with macOS clipboard
 
-
-vim.opt.fillchars:append { eob = " " }  -- Removes the '~' symbols
-
+vim.opt.fillchars:append({ eob = " " }) -- Removes the '~' symbols
 
 -- Highlight text for some time after yanking
 vim.api.nvim_create_autocmd("TextYankPost", {
-    group = vim.api.nvim_create_augroup("YankHighlight", { 
-        clear = true }),
-    pattern = "*",
-    callback = function()
-        vim.highlight.on_yank()
-    end,
-    desc = "Highlight yank",
+	group = vim.api.nvim_create_augroup("YankHighlight", {
+		clear = true,
+	}),
+	pattern = "*",
+	callback = function()
+		vim.highlight.on_yank()
+	end,
+	desc = "Highlight yank",
 })
-
-
